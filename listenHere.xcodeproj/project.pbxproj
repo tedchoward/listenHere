@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		222869111B54552B000C8414 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 222869101B54552B000C8414 /* main.m */; };
+		222869191B545548000C8414 /* FileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 222869181B545548000C8414 /* FileWatcher.m */; };
+		2228691F1B555C6D000C8414 /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2228691E1B555C6D000C8414 /* TCPServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		2228690D1B54552B000C8414 /* listenHere */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = listenHere; sourceTree = BUILT_PRODUCTS_DIR; };
 		222869101B54552B000C8414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		222869171B545548000C8414 /* FileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWatcher.h; sourceTree = "<group>"; };
+		222869181B545548000C8414 /* FileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWatcher.m; sourceTree = "<group>"; };
+		2228691D1B555C6D000C8414 /* TCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPServer.h; sourceTree = "<group>"; };
+		2228691E1B555C6D000C8414 /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				222869101B54552B000C8414 /* main.m */,
+				222869171B545548000C8414 /* FileWatcher.h */,
+				222869181B545548000C8414 /* FileWatcher.m */,
+				2228691D1B555C6D000C8414 /* TCPServer.h */,
+				2228691E1B555C6D000C8414 /* TCPServer.m */,
 			);
 			path = listenHere;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2228691F1B555C6D000C8414 /* TCPServer.m in Sources */,
+				222869191B545548000C8414 /* FileWatcher.m in Sources */,
 				222869111B54552B000C8414 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
